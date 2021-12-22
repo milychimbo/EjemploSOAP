@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://grupo7.com/spring-boot-soap-ejemplo">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Emily</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
